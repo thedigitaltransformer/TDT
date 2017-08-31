@@ -1,0 +1,88 @@
+<?php get_header(); ?>
+
+    <!--Main content-->
+    <main>
+    
+    <!-- SHOWCASE PARALLAX -->
+        <section class="showcase">
+            <div class="parallax-container valign-wrapper">
+                <div class="row ">
+                    <div class="col s12 sky">
+                        <img src="<?php bloginfo('template_url') ?>/assets/img/sky-paralax.png" width="100%"/> 
+                    </div>
+					<div class="col s12">
+                        <div class="center-align">
+                        <h1 class="valign blue showcase--title--mobile lighten-1 highlight z-depth-4"><strong>DISRUPTION AND INNOVATION <br>ARE GROWTH</strong></h1>
+                        
+                        </div>
+                         
+                    </div> 
+                     
+                </div>
+               
+                <div class="parallax">
+                    <img src="<?php bloginfo('template_url') ?>/assets/img/background1.jpg" />
+                    
+                </div>
+                 
+            </div>
+            
+		</section>
+<!--    BLOG -->
+      
+      
+       <div class="row noir">
+<!--     THE ARTICLE  -->
+			<div class="col s8">
+			<?php if(have_posts()) : ?>
+				<?php while(have_posts()) : the_post(); ?>
+					<article>
+					<div class="row">
+						<div class="col s12 post-thumb">
+							<?php if(has_post_thumbnail()) : ?>
+								<?php the_post_thumbnail(); ?>
+							<?php endif; ?>
+						</div>
+						<div class="col s12 post-title">
+							<h1 class="noir"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+						</div>
+						<div class="col s12 post-meta">
+							<p>author : <a href="<?= get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a> - <?php the_date('D M Y ');?></p>
+						</div>
+						<div class="col s12 post-content">
+							<?php the_excerpt(); ?>
+						</div>
+						<div class="col s12 post-tag">
+							<ul>
+								<li>Tag 1</li>
+								<li>Tag 2</li>
+								<li>Tag 3</li>
+								<li>Tag 4</li>
+							</ul>
+						</div>
+					</div>
+					</article>
+				<?php endwhile; ?>		
+			<?php else : ?>
+				<h1>sorry no posts found </h1>
+			<?php endif; ?>
+		</div>
+    		     
+<!--    THE SIDEBAR		     -->
+    		     
+    		     
+     		<div class="col s4">
+     			<aside>
+     				SIDEBAR
+     			</aside>
+     		</div>
+      		
+       </div>
+        
+        
+        
+        
+    <!--END OF MAIN SECTION-->    
+    </main>
+
+<?php get_footer(); ?>

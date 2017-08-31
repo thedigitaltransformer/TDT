@@ -1,0 +1,254 @@
+/*
+Theme Name: Template TEST 
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: Stéphane Zwahlen
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+
+
+/**FONTS IMPORT**/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Varela+Round');
+
+/** GLOBAL **/
+
+body{
+    color:white;
+	font-family: 'Varela Round', sans-serif;
+}
+
+body i {
+    color: black;
+    
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+    padding: 2vh;
+    font-size: 5vh;
+	text-transform: uppercase;
+    
+}
+
+h2 {
+	color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 5vh 0 5vh 0;
+    font-size: 5vh;
+    padding: 0 3vh 0 3vh; 
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+    margin: 5vh 0 2vh 0;
+    font-size: 3vh;
+    padding: 0 3vh 0 0;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 2vh; 
+}
+
+
+
+
+pre{
+    
+}
+
+/** HEADER **/
+
+header{
+    height: 9vh;
+    
+}
+
+
+
+
+
+.logo{
+    margin-top: 1vh;
+    max-height: 6vh;
+    margin-bottom: 1vh;
+}
+.navigation--button{
+    margin-top: 4vh;
+}
+
+
+.menu li a{
+	text-transform: uppercase;
+}
+
+.noir{
+    color: black;
+}
+
+/** PARALAX **/
+
+.section--wrapper{
+    min-height: 75vh;
+}
+
+.showcase{
+    
+}
+
+
+.sky img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ground{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.showcase--title {
+    position: absolute;
+    bottom: 10vh;
+    margin: 4vw;
+    
+}
+
+.grid-service{}
+
+.grid-service-box{
+	min-height:15vh;
+	max-height:15vh;
+
+}
+
+.grid-service img{
+    max-height:15vh;
+}
+.grid-service h3{
+    margin: 0;
+    padding: 0;
+}
+.grid-service p{
+    text-align: justify;
+    padding: 2vh;
+}
+
+
+
+.highlight h1{
+   /** padding: 4vh;
+    margin: 1vh;
+    font-size: 5vh;**//
+    
+}
+
+.highlight h2 {
+    font-family: 'Varela Round', sans-serif; 
+    padding: 4vh;
+    margin: 1vh;
+    font-size: 5vh;
+}
+
+
+.showcase--background{
+}
+
+.parallax-container {
+    height: 75vh;
+    }
+
+.menu{
+}
+
+/** CONTACT **/
+
+
+.contact--socialmedia {
+    margin-top: 3vh;
+}
+
+.contact--socialmedia img {
+    max-height:5vh;
+}
+
+/** FOOTER **/
+footer{
+	color: white;
+}
+
+footer p{
+	padding: 0 10vh 0 0;
+}
+
+.footer--title{
+	color: white;
+}
+
+.footer--last--post{
+	color: white;
+	text-transform: uppercase;
+	font-size: 2vh;
+}
+
+.footer--last--post li a{
+	color: white;
+	
+}
+
+.footer--last--post li a:hover {
+	color: blue;
+}
+
+/** FORM **/
+
+/* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+
+
+/************POST*****************/
+
+.post-thumb{
+	
+}

@@ -1,0 +1,188 @@
+/**FONTS IMPORT**/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Varela+Round');
+
+body{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+body i {
+    color: black;
+    
+}
+
+h1{
+    padding: 2vh;
+    font-size: 5vh;
+    
+}
+
+h2 {
+    font-family: 'Varela Round', sans-serif;
+    margin: 5vh 0 5vh 0;
+    font-size: 5vh;
+    padding: 0 3vh 0 3vh;  
+}
+
+h3 {
+    margin: 5vh 0 2vh 0;
+    font-size: 3vh;
+    padding: 0 3vh 0 0;  
+}
+
+pre{
+   font-family: 'Roboto', sans-serif; 
+}
+
+/** HEADER **/
+
+header{
+    height: 9vh;
+    
+}
+
+
+
+
+
+.logo{
+    margin-top: 1vh;
+    max-height: 7vh;
+    margin-bottom: 1vh;
+}
+.navigation--button{
+    margin-top: 4vh;
+}
+
+
+.noir{
+    color: black;
+}
+
+/** PARALAX **/
+
+.section--wrapper{
+    min-height: 75vh;
+}
+
+.showcase{
+    
+}
+
+
+.sky img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ground{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.showcase--title {
+    position: absolute;
+    bottom: 10vh;
+    margin: 4vw;
+    
+}
+
+.grid-service{}
+.grid-service img{
+    max-height:15vh;
+}
+.grid-service h3{
+    margin: 0;
+    padding: 0;
+}
+.grid-service p{
+    text-align: justify;
+    padding: 2vh;
+}
+
+
+
+.highlight h1{
+   /** padding: 4vh;
+    margin: 1vh;
+    font-size: 5vh;**//
+    
+}
+
+.highlight h2 {
+    font-family: 'Varela Round', sans-serif; 
+    padding: 4vh;
+    margin: 1vh;
+    font-size: 5vh;
+}
+
+
+
+
+.showcase--background{
+    
+    /**background-image: url(../img/background1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 91vh;**/
+}
+
+.parallax-container {
+    /**background-image: url(../img/background1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;**/
+    height: 75vh;
+    }
+
+
+
+/** CONTACT **/
+
+
+.contact--socialmedia {
+    margin-top: 3vh;
+}
+
+.contact--socialmedia img {
+    max-height:5vh;
+}
+
+.success{
+	color: green;
+}
+.error{
+	color: red;
+}
+
+
+/** FORM **/
+
+/* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
