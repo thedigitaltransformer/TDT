@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes();  ?> >
 <head>
-	
+
 	<meta charset="<?php bloginfo('charset');?>" >
 	<meta name="description" content=" <?php bloginfo('description'); ?>">
 	<title><?php bloginfo('name');?> - <?php is_front_page() ? bloginfo('description') : wp_title(); ?> </title>
@@ -27,7 +27,7 @@
 				</a>
 			</div>
       		<div class="col s3 noir">
-      			<p class="right-align"><a href="/blog">BLOG</a></p>
+      			<p class="right-align"><a href="/blog">TEST - BLOG</a></p>
       		</div>
        </div>
     </header>
